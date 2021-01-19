@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p>
+                El texto que se muestra a continuacion viene de un servidor flask realizado en python:
+                devuelve un listado de peliculas:
+            </p>
+            <ul  class="list-group">
+                <li class="list-group-item" *ngFor="let item of moviesList">
+                    {{item.title}}
+                </li>
+            </ul>
+            <ul *ngIf="showError" class="list-group text-center">
+                <p>Error interno, recargar página</p>
+            </ul>
+        </div>
+    </div>
+</div>

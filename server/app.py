@@ -10,7 +10,8 @@ def get_movies():
         "code": 200,
         "data": [
             {"id": 1, "title": "Soul"},
-            {"id": 2, "title": "El club de la pelea"} 
+            {"id": 2, "title": "El club de la pelea"},
+            {"id": 3, "title": "Pythonizando"}  
         ]
     }
 

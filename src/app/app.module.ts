@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { FormLoginComponent } from './components/form-login/form-login.component';
+import { LenguajesProgramacionComponent } from './components/lenguajes-programacion/lenguajes-programacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FormLoginComponent
+    LenguajesProgramacionComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  event(){
+    alert("Click")
+  }
+  search(){
+    alert("Buscando")
+  }
 }

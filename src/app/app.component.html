@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pythonizando | NGFOR</title>
-</head>
-<body>
-  <app-lenguajes-programacion></app-lenguajes-programacion>
-</body>
-</html>
+<div class="container mt-5">
+  <h1>Event Binding</h1>
+
+<button (click)="event()" class="btn btn-primary">
+  Evento click
+</button>
+<input (keyup.enter)="search()" placeholder="Buscar canción" type="text" class="form-control mt-3">
+</div>
